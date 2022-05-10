@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
         <hr  />
         <h6 style={{ marginTop: '2rem' }} className="text-center">
-          All right reserved by @smalamin
+          All right reserved by @BizCrunch
         </h6>
       </div>
 

@@ -32,14 +32,13 @@ function NavBar() {
             ></ul>
             <div class="d-flex">
               <li style={{ listStyle: 'none' }} class="nav-item fs-3">
-                Blog
+                <h6 class="fs-3"> Blog </h6>
               </li>
               <li style={{ listStyle: 'none' }} class="nav-item fs-3">
-                About Us
+                <h6 class="fs-3"> About Us </h6>
               </li>
               <li style={{ listStyle: 'none' }} class="nav-item fs-3">
-                {' '}
-                Join Team
+                <h6 class="fs-3"> Join Team </h6>
               </li>
             </div>
           </div>

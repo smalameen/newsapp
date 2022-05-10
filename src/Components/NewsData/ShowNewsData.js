@@ -9,6 +9,7 @@ const ShowNewsData = ({ itemData, itemDate }) => {
             <a
               style={{ textDecoration: 'none', color: 'black' }}
               target="_blank"
+              rel="noreferrer"
               href={itemData.url}
             >
               <h5 class="card-title">{itemData.title}</h5>
@@ -16,6 +17,7 @@ const ShowNewsData = ({ itemData, itemDate }) => {
             <a
               style={{ textDecoration: 'none', color: 'black' }}
               target="_blank"
+              rel="noreferrer"
               href={itemData.url}
             >
               <b>{itemData.author}</b> <p>{itemDate}</p>{' '}
@@ -25,9 +27,9 @@ const ShowNewsData = ({ itemData, itemDate }) => {
             <a
               style={{ textDecoration: 'none', color: 'black' }}
               target="_blank"
+              rel="noreferrer"
               href={itemData.url}
             >
-              {' '}
               <b>{itemData.description}</b>
             </a>
           </div>
